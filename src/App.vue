@@ -9,7 +9,6 @@
   ul
     artist(v-for = "artist in artists" :artist="artist" :key="artist.mbid" )
   //  li(v-for="art in artists") {{art.name}}
-      
 </template>
 
 <script>
