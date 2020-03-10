@@ -1,6 +1,6 @@
 <template lang="pug">
 #app
-  img(src='https://eramirez3000.github.io/pm-vuejs/dist/logo.png')
+  img(src='/dist/logo.png')
   hr
   h1 pangolin-Music
   select(v-model="selectedCountry")
